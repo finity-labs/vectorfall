@@ -5,31 +5,130 @@
  "description": "Chrome arcologies and black-market data havens under a magenta sky.",
  "seed": 424242,
  "goods": [
-  ["Protein gel", 9, -1],
-  ["Hydroponics", 14, -0.9],
-  ["Polymers", 24, 0.1],
-  ["Fiber optics", 45, 0.6],
-  ["Stim patches", 55, -0.4],
-  ["Cryo cells", 70, 0.3],
-  ["Isotopes", 65, 0.7],
-  ["Courier drones", 90, 1],
-  ["Vanity mods", 95, 0.2],
-  ["Holo rigs", 110, 1.2],
-  ["Data cores", 130, 1.1],
-  ["Neural laces", 170, 1.4]
+  [
+   "Protein gel",
+   9,
+   -1
+  ],
+  [
+   "Hydroponics",
+   14,
+   -0.9
+  ],
+  [
+   "Polymers",
+   24,
+   0.1
+  ],
+  [
+   "Fiber optics",
+   45,
+   0.6
+  ],
+  [
+   "Stim patches",
+   55,
+   -0.4,
+   1
+  ],
+  [
+   "Cryo cells",
+   70,
+   0.3
+  ],
+  [
+   "Isotopes",
+   65,
+   0.7
+  ],
+  [
+   "Courier drones",
+   90,
+   1
+  ],
+  [
+   "Vanity mods",
+   95,
+   0.2
+  ],
+  [
+   "Holo rigs",
+   110,
+   1.2
+  ],
+  [
+   "Data cores",
+   130,
+   1.1
+  ],
+  [
+   "Neural laces",
+   170,
+   1.4,
+   1
+  ]
  ],
  "ships": {
-  "wisp": { "name": "Wisp", "cap": 12, "spd": 540, "turn": 1.4, "shield": 90, "price": 2600, "tech": 3, "desc": "A sliver of mirrored hull: outruns nearly everything." },
-  "carryall": { "name": "Carryall", "cap": 48, "spd": 290, "turn": 0.6, "shield": 140, "price": 4800, "tech": 5, "desc": "Boxy corporate freighter with room for whole markets." },
-  "vector": { "name": "Vector", "cap": 24, "spd": 430, "turn": 1.05, "shield": 120, "price": 3600, "tech": 6, "desc": "The courier standard: balanced, fast, dependable." }
+  "wisp": {
+   "name": "Wisp",
+   "cap": 12,
+   "spd": 540,
+   "turn": 1.4,
+   "shield": 90,
+   "price": 2600,
+   "tech": 3,
+   "desc": "A sliver of mirrored hull: outruns nearly everything.",
+   "mounts": 1
+  },
+  "carryall": {
+   "name": "Carryall",
+   "cap": 48,
+   "spd": 290,
+   "turn": 0.6,
+   "shield": 140,
+   "price": 4800,
+   "tech": 5,
+   "desc": "Boxy corporate freighter with room for whole markets.",
+   "mounts": 3
+  },
+  "vector": {
+   "name": "Vector",
+   "cap": 24,
+   "spd": 430,
+   "turn": 1.05,
+   "shield": 120,
+   "price": 3600,
+   "tech": 6,
+   "desc": "The courier standard: balanced, fast, dependable.",
+   "mounts": 2
+  }
  },
  "theme": {
-  "bg": "#0a0616", "fg": "#eae6ff", "dim": "#8f86b8", "wire": "#9ff7ff",
-  "hud": "#ff5ad1", "ok": "#66ffc2", "bad": "#ff4d6d", "line": "#3a2a66",
-  "btn": "#17102e", "panel": "rgba(10,6,22,.94)", "sun": "#ffd1f0",
-  "planet": "#140b33", "spark": "#ff8de4", "can": "#9ff7ff",
-  "pirate": "#ff6ba1", "trader": "#8affd8", "missile": "#ffd166",
-  "galaxy": "#b79cff", "chartBg": "#070313",
-  "econColors": ["#66ffc2", "#ffd166", "#eae6ff", "#9ff7ff", "#ff5ad1"]
+  "bg": "#0a0616",
+  "fg": "#eae6ff",
+  "dim": "#8f86b8",
+  "wire": "#9ff7ff",
+  "hud": "#ff5ad1",
+  "ok": "#66ffc2",
+  "bad": "#ff4d6d",
+  "line": "#3a2a66",
+  "btn": "#17102e",
+  "panel": "rgba(10,6,22,.94)",
+  "sun": "#ffd1f0",
+  "planet": "#140b33",
+  "spark": "#ff8de4",
+  "can": "#9ff7ff",
+  "pirate": "#ff6ba1",
+  "trader": "#8affd8",
+  "missile": "#ffd166",
+  "galaxy": "#b79cff",
+  "chartBg": "#070313",
+  "econColors": [
+   "#66ffc2",
+   "#ffd166",
+   "#eae6ff",
+   "#9ff7ff",
+   "#ff5ad1"
+  ]
  }
 }

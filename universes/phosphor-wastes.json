@@ -5,31 +5,129 @@
  "description": "Abandoned machine yards where every screen still burns the same green.",
  "seed": 55117,
  "goods": [
-  ["Ration paste", 8, -1],
-  ["Distilled water", 6, -0.8],
-  ["Tape spools", 14, -0.3],
-  ["Punch cards", 20, -0.2],
-  ["Salvage permits", 55, 0.2],
-  ["Capacitors", 35, 0.5],
-  ["Crawler treads", 45, 0.6],
-  ["Spare servos", 60, 0.7],
-  ["Antenna masts", 40, 0.8],
-  ["Shield coils", 85, 1],
-  ["Logic cores", 120, 1.2],
-  ["Oracle boxes", 160, 1.4]
+  [
+   "Ration paste",
+   8,
+   -1
+  ],
+  [
+   "Distilled water",
+   6,
+   -0.8
+  ],
+  [
+   "Tape spools",
+   14,
+   -0.3
+  ],
+  [
+   "Punch cards",
+   20,
+   -0.2
+  ],
+  [
+   "Salvage permits",
+   55,
+   0.2
+  ],
+  [
+   "Capacitors",
+   35,
+   0.5
+  ],
+  [
+   "Crawler treads",
+   45,
+   0.6
+  ],
+  [
+   "Spare servos",
+   60,
+   0.7
+  ],
+  [
+   "Antenna masts",
+   40,
+   0.8
+  ],
+  [
+   "Shield coils",
+   85,
+   1
+  ],
+  [
+   "Logic cores",
+   120,
+   1.2
+  ],
+  [
+   "Oracle boxes",
+   160,
+   1.4,
+   1
+  ]
  ],
  "ships": {
-  "probe": { "name": "Probe", "cap": 12, "spd": 480, "turn": 1.3, "shield": 80, "price": 1200, "tech": 1, "desc": "Barely more than a sensor pod with ambitions." },
-  "crawler": { "name": "Crawler", "cap": 54, "spd": 235, "turn": 0.45, "shield": 185, "price": 5500, "tech": 4, "desc": "Tracked yard-hauler refitted for vacuum; patience included." },
-  "relay": { "name": "Relay", "cap": 22, "spd": 420, "turn": 1.05, "shield": 125, "price": 3800, "tech": 6, "desc": "Signal runner; its silhouette is mostly antenna." }
+  "probe": {
+   "name": "Probe",
+   "cap": 12,
+   "spd": 480,
+   "turn": 1.3,
+   "shield": 80,
+   "price": 1200,
+   "tech": 1,
+   "desc": "Barely more than a sensor pod with ambitions.",
+   "mounts": 1
+  },
+  "crawler": {
+   "name": "Crawler",
+   "cap": 54,
+   "spd": 235,
+   "turn": 0.45,
+   "shield": 185,
+   "price": 5500,
+   "tech": 4,
+   "desc": "Tracked yard-hauler refitted for vacuum; patience included.",
+   "mounts": 3
+  },
+  "relay": {
+   "name": "Relay",
+   "cap": 22,
+   "spd": 420,
+   "turn": 1.05,
+   "shield": 125,
+   "price": 3800,
+   "tech": 6,
+   "desc": "Signal runner; its silhouette is mostly antenna.",
+   "mounts": 2
+  }
  },
  "theme": {
-  "bg": "#020a04", "fg": "#b8ffce", "dim": "#4e8a60", "wire": "#7dffa8",
-  "hud": "#3dff7c", "ok": "#b8ffce", "bad": "#ff5a5a", "line": "#14522a",
-  "btn": "#06240f", "panel": "rgba(2,10,4,.94)", "sun": "#d8ffb0",
-  "planet": "#06301a", "spark": "#7dffa8", "can": "#b8ffce",
-  "pirate": "#ffe08a", "trader": "#7dffa8", "missile": "#ffe08a",
-  "galaxy": "#5ad17c", "chartBg": "#010703",
-  "econColors": ["#b8ffce", "#8fd16a", "#ffe08a", "#5ad17c", "#3dff7c"]
+  "bg": "#020a04",
+  "fg": "#b8ffce",
+  "dim": "#4e8a60",
+  "wire": "#7dffa8",
+  "hud": "#3dff7c",
+  "ok": "#b8ffce",
+  "bad": "#ff5a5a",
+  "line": "#14522a",
+  "btn": "#06240f",
+  "panel": "rgba(2,10,4,.94)",
+  "sun": "#d8ffb0",
+  "planet": "#06301a",
+  "spark": "#7dffa8",
+  "can": "#b8ffce",
+  "pirate": "#ffe08a",
+  "trader": "#7dffa8",
+  "missile": "#ffe08a",
+  "galaxy": "#5ad17c",
+  "chartBg": "#010703",
+  "econColors": [
+   "#b8ffce",
+   "#8fd16a",
+   "#ffe08a",
+   "#5ad17c",
+   "#3dff7c"
+  ]
  }
 }

@@ -5,31 +5,129 @@
  "description": "Terraced farm moons and slow river freighters on the green frontier.",
  "seed": 1959,
  "goods": [
-  ["Seed stock", 12, -1],
-  ["Timber", 16, -0.8],
-  ["Honey wine", 28, -0.5],
-  ["Spores", 48, -0.6],
-  ["Herbal salves", 60, -0.3],
-  ["Biofuel", 35, 0.2],
-  ["Glassware", 30, 0.6],
-  ["Ceramics", 40, 0.5],
-  ["Hand tools", 55, 0.8],
-  ["Instruments", 105, 1.1],
-  ["Weather drones", 125, 1.2],
-  ["Terraform kits", 180, 1.4]
+  [
+   "Seed stock",
+   12,
+   -1
+  ],
+  [
+   "Timber",
+   16,
+   -0.8
+  ],
+  [
+   "Honey wine",
+   28,
+   -0.5
+  ],
+  [
+   "Spores",
+   48,
+   -0.6,
+   1
+  ],
+  [
+   "Herbal salves",
+   60,
+   -0.3
+  ],
+  [
+   "Biofuel",
+   35,
+   0.2
+  ],
+  [
+   "Glassware",
+   30,
+   0.6
+  ],
+  [
+   "Ceramics",
+   40,
+   0.5
+  ],
+  [
+   "Hand tools",
+   55,
+   0.8
+  ],
+  [
+   "Instruments",
+   105,
+   1.1
+  ],
+  [
+   "Weather drones",
+   125,
+   1.2
+  ],
+  [
+   "Terraform kits",
+   180,
+   1.4
+  ]
  ],
  "ships": {
-  "dory": { "name": "Dory", "cap": 18, "spd": 400, "turn": 1.1, "shield": 95, "price": 1400, "tech": 1, "desc": "Honest little boat: carries a bit, complains little." },
-  "oxcart": { "name": "Oxcart", "cap": 62, "spd": 240, "turn": 0.45, "shield": 170, "price": 5600, "tech": 4, "desc": "The harvest hauler: half the arm eats out of its hold." },
-  "harrier": { "name": "Harrier", "cap": 14, "spd": 500, "turn": 1.35, "shield": 105, "price": 4200, "tech": 7, "desc": "Ranger patrol surplus: sharp turns, sharper sting." }
+  "dory": {
+   "name": "Dory",
+   "cap": 18,
+   "spd": 400,
+   "turn": 1.1,
+   "shield": 95,
+   "price": 1400,
+   "tech": 1,
+   "desc": "Honest little boat: carries a bit, complains little.",
+   "mounts": 2
+  },
+  "oxcart": {
+   "name": "Oxcart",
+   "cap": 62,
+   "spd": 240,
+   "turn": 0.45,
+   "shield": 170,
+   "price": 5600,
+   "tech": 4,
+   "desc": "The harvest hauler: half the arm eats out of its hold.",
+   "mounts": 3
+  },
+  "harrier": {
+   "name": "Harrier",
+   "cap": 14,
+   "spd": 500,
+   "turn": 1.35,
+   "shield": 105,
+   "price": 4200,
+   "tech": 7,
+   "desc": "Ranger patrol surplus: sharp turns, sharper sting.",
+   "mounts": 2
+  }
  },
  "theme": {
-  "bg": "#07110a", "fg": "#e9f3e4", "dim": "#8fa892", "wire": "#d8f0c0",
-  "hud": "#ffd166", "ok": "#7ee0a3", "bad": "#ff6b5a", "line": "#2c4a33",
-  "btn": "#0f2416", "panel": "rgba(7,17,10,.94)", "sun": "#ffe08a",
-  "planet": "#113421", "spark": "#ffe08a", "can": "#ffd166",
-  "pirate": "#ff9b7a", "trader": "#a4e8b8", "missile": "#ffd166",
-  "galaxy": "#9cd7a8", "chartBg": "#050d07",
-  "econColors": ["#7ee0a3", "#c9a86a", "#e9f3e4", "#9cd7a8", "#ffd166"]
+  "bg": "#07110a",
+  "fg": "#e9f3e4",
+  "dim": "#8fa892",
+  "wire": "#d8f0c0",
+  "hud": "#ffd166",
+  "ok": "#7ee0a3",
+  "bad": "#ff6b5a",
+  "line": "#2c4a33",
+  "btn": "#0f2416",
+  "panel": "rgba(7,17,10,.94)",
+  "sun": "#ffe08a",
+  "planet": "#113421",
+  "spark": "#ffe08a",
+  "can": "#ffd166",
+  "pirate": "#ff9b7a",
+  "trader": "#a4e8b8",
+  "missile": "#ffd166",
+  "galaxy": "#9cd7a8",
+  "chartBg": "#050d07",
+  "econColors": [
+   "#7ee0a3",
+   "#c9a86a",
+   "#e9f3e4",
+   "#9cd7a8",
+   "#ffd166"
+  ]
  }
 }

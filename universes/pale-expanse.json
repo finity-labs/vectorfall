@@ -5,31 +5,129 @@
  "description": "Glacier mines and silent relay stations at the cold edge of the arm.",
  "seed": 90412,
  "goods": [
-  ["Methane ice", 7, -0.9],
-  ["Lichen tea", 28, -0.7],
-  ["Glacier cores", 45, -0.6],
-  ["Aurora dust", 95, -0.4],
-  ["Antifreeze", 22, 0.1],
-  ["Insulation foam", 30, 0.4],
-  ["Thermal suits", 55, 0.6],
-  ["Heater coils", 60, 0.8],
-  ["Icebreak charges", 75, 0.9],
-  ["Snow tractors", 85, 1],
-  ["Beacon relays", 110, 1.1],
-  ["Cryo vaults", 125, 1.2]
+  [
+   "Methane ice",
+   7,
+   -0.9
+  ],
+  [
+   "Lichen tea",
+   28,
+   -0.7
+  ],
+  [
+   "Glacier cores",
+   45,
+   -0.6
+  ],
+  [
+   "Aurora dust",
+   95,
+   -0.4,
+   1
+  ],
+  [
+   "Antifreeze",
+   22,
+   0.1
+  ],
+  [
+   "Insulation foam",
+   30,
+   0.4
+  ],
+  [
+   "Thermal suits",
+   55,
+   0.6
+  ],
+  [
+   "Heater coils",
+   60,
+   0.8
+  ],
+  [
+   "Icebreak charges",
+   75,
+   0.9
+  ],
+  [
+   "Snow tractors",
+   85,
+   1
+  ],
+  [
+   "Beacon relays",
+   110,
+   1.1
+  ],
+  [
+   "Cryo vaults",
+   125,
+   1.2
+  ]
  ],
  "ships": {
-  "tern": { "name": "Tern", "cap": 15, "spd": 450, "turn": 1.2, "shield": 85, "price": 1250, "tech": 1, "desc": "White-feathered courier: light, quick, and a bit fragile." },
-  "breaker": { "name": "Breaker", "cap": 56, "spd": 245, "turn": 0.45, "shield": 180, "price": 5700, "tech": 5, "desc": "Ram-bowed hauler that treats ice fields as suggestions." },
-  "boreal": { "name": "Boreal", "cap": 22, "spd": 480, "turn": 1.15, "shield": 115, "price": 4300, "tech": 6, "desc": "Patrol glider tuned for thin light and long silences." }
+  "tern": {
+   "name": "Tern",
+   "cap": 15,
+   "spd": 450,
+   "turn": 1.2,
+   "shield": 85,
+   "price": 1250,
+   "tech": 1,
+   "desc": "White-feathered courier: light, quick, and a bit fragile.",
+   "mounts": 1
+  },
+  "breaker": {
+   "name": "Breaker",
+   "cap": 56,
+   "spd": 245,
+   "turn": 0.45,
+   "shield": 180,
+   "price": 5700,
+   "tech": 5,
+   "desc": "Ram-bowed hauler that treats ice fields as suggestions.",
+   "mounts": 3
+  },
+  "boreal": {
+   "name": "Boreal",
+   "cap": 22,
+   "spd": 480,
+   "turn": 1.15,
+   "shield": 115,
+   "price": 4300,
+   "tech": 6,
+   "desc": "Patrol glider tuned for thin light and long silences.",
+   "mounts": 2
+  }
  },
  "theme": {
-  "bg": "#060b12", "fg": "#eef6ff", "dim": "#8c9cb0", "wire": "#dceaff",
-  "hud": "#7ec8ff", "ok": "#9fe8b8", "bad": "#ff6b7a", "line": "#2a3c52",
-  "btn": "#101c2a", "panel": "rgba(6,11,18,.94)", "sun": "#fff3d0",
-  "planet": "#0d1f33", "spark": "#dceaff", "can": "#7ec8ff",
-  "pirate": "#ff92a8", "trader": "#b0e8c8", "missile": "#ffd166",
-  "galaxy": "#a8c8e8", "chartBg": "#040810",
-  "econColors": ["#9fe8b8", "#c9b06a", "#eef6ff", "#a8c8e8", "#7ec8ff"]
+  "bg": "#060b12",
+  "fg": "#eef6ff",
+  "dim": "#8c9cb0",
+  "wire": "#dceaff",
+  "hud": "#7ec8ff",
+  "ok": "#9fe8b8",
+  "bad": "#ff6b7a",
+  "line": "#2a3c52",
+  "btn": "#101c2a",
+  "panel": "rgba(6,11,18,.94)",
+  "sun": "#fff3d0",
+  "planet": "#0d1f33",
+  "spark": "#dceaff",
+  "can": "#7ec8ff",
+  "pirate": "#ff92a8",
+  "trader": "#b0e8c8",
+  "missile": "#ffd166",
+  "galaxy": "#a8c8e8",
+  "chartBg": "#040810",
+  "econColors": [
+   "#9fe8b8",
+   "#c9b06a",
+   "#eef6ff",
+   "#a8c8e8",
+   "#7ec8ff"
+  ]
  }
 }
