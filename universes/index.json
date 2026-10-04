@@ -1,0 +1,47 @@
+[
+ {
+  "file": "ember-crucible.json",
+  "name": "Ember crucible",
+  "description": "Forge moons ring a dying red giant; everything smells of hot metal."
+ },
+ {
+  "file": "gilded-span.json",
+  "name": "Gilded span",
+  "description": "Palace stations and toll bridges along the richest lane in the arm."
+ },
+ {
+  "file": "neon-reach.json",
+  "name": "Neon reach",
+  "description": "Chrome arcologies and black-market data havens under a magenta sky."
+ },
+ {
+  "file": "pale-expanse.json",
+  "name": "Pale expanse",
+  "description": "Glacier mines and silent relay stations at the cold edge of the arm."
+ },
+ {
+  "file": "pelagic-deep.json",
+  "name": "Pelagic deep",
+  "description": "Drowned colonies and kelp farms beneath storm-wracked ocean worlds."
+ },
+ {
+  "file": "phosphor-wastes.json",
+  "name": "Phosphor wastes",
+  "description": "Abandoned machine yards where every screen still burns the same green."
+ },
+ {
+  "file": "rust-belt.json",
+  "name": "Rust belt",
+  "description": "Scrap haulers and furnace towns along a dying industrial arm."
+ },
+ {
+  "file": "umbral-drift.json",
+  "name": "Umbral drift",
+  "description": "Smuggler fleets navigate a lightless nebula by whisper and wake."
+ },
+ {
+  "file": "verdant-arm.json",
+  "name": "Verdant arm",
+  "description": "Terraced farm moons and slow river freighters on the green frontier."
+ }
+]

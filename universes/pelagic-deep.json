@@ -1,0 +1,35 @@
+{
+ "format": "vectorfall-universe",
+ "version": 2,
+ "name": "Pelagic deep",
+ "description": "Drowned colonies and kelp farms beneath storm-wracked ocean worlds.",
+ "seed": 30577,
+ "goods": [
+  ["Algae cakes", 8, -1],
+  ["Fish meal", 12, -0.9],
+  ["Kelp resin", 15, -0.7],
+  ["Brine salts", 18, -0.2],
+  ["Pearl cultures", 85, -0.6],
+  ["Storm glass", 60, 0.3],
+  ["Hull sealant", 35, 0.4],
+  ["Dive suits", 50, 0.6],
+  ["Desal rigs", 75, 0.9],
+  ["Sonar pods", 95, 1.1],
+  ["Chart buoys", 35, 0.8],
+  ["Turbines", 110, 1.2]
+ ],
+ "ships": {
+  "skate": { "name": "Skate", "cap": 16, "spd": 440, "turn": 1.2, "shield": 85, "price": 1300, "tech": 1, "desc": "Flat little skimmer: darts through swell and crossfire alike." },
+  "trawler": { "name": "Trawler", "cap": 58, "spd": 255, "turn": 0.5, "shield": 165, "price": 5400, "tech": 4, "desc": "Dripping bulk hauler; half the hold still smells of brine." },
+  "marlin": { "name": "Marlin", "cap": 20, "spd": 510, "turn": 1.3, "shield": 110, "price": 4400, "tech": 7, "desc": "Long-nosed interceptor built for the storm lanes." }
+ },
+ "theme": {
+  "bg": "#041014", "fg": "#dff4f2", "dim": "#7da5a3", "wire": "#9fe8e0",
+  "hud": "#49e0c8", "ok": "#8ae89a", "bad": "#ff6161", "line": "#174d4d",
+  "btn": "#0a2326", "panel": "rgba(4,16,20,.94)", "sun": "#ffe9a8",
+  "planet": "#062832", "spark": "#9fe8e0", "can": "#ffd166",
+  "pirate": "#ff8da1", "trader": "#a8e8c0", "missile": "#ffd166",
+  "galaxy": "#6fc4d8", "chartBg": "#031013",
+  "econColors": ["#8ae89a", "#c9b06a", "#dff4f2", "#6fc4d8", "#49e0c8"]
+ }
+}

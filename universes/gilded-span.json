@@ -1,0 +1,35 @@
+{
+ "format": "vectorfall-universe",
+ "version": 2,
+ "name": "Gilded span",
+ "description": "Palace stations and toll bridges along the richest lane in the arm.",
+ "seed": 18870,
+ "goods": [
+  ["Rare teas", 35, -0.8],
+  ["Brocade", 45, -0.9],
+  ["Perfumes", 60, -0.6],
+  ["Vintages", 70, -0.5],
+  ["Lacquerware", 55, -0.4],
+  ["Statuary", 85, -0.3],
+  ["Gilt filigree", 110, -0.2],
+  ["Scribe ink", 25, -0.1],
+  ["Gemcut lenses", 95, 0.8],
+  ["Clockworks", 80, 1],
+  ["Promissory seals", 120, 1.1],
+  ["Orrery kits", 140, 1.3]
+ ],
+ "ships": {
+  "palanquin": { "name": "Palanquin", "cap": 26, "spd": 350, "turn": 0.8, "shield": 130, "price": 3900, "tech": 3, "desc": "Cushioned trader: slow to anger, kind to cargo and passengers." },
+  "caravel": { "name": "Caravel", "cap": 50, "spd": 300, "turn": 0.65, "shield": 150, "price": 5200, "tech": 5, "desc": "A merchant classic; its gilded prow opens doors and dock gates." },
+  "peregrine": { "name": "Peregrine", "cap": 16, "spd": 530, "turn": 1.35, "shield": 100, "price": 4800, "tech": 7, "desc": "An escort falcon for clients who insure their silks properly." }
+ },
+ "theme": {
+  "bg": "#120a14", "fg": "#f6ecdc", "dim": "#a08f78", "wire": "#e8d5a8",
+  "hud": "#ffcf5c", "ok": "#a8d17b", "bad": "#ff5c6c", "line": "#4a3a52",
+  "btn": "#241a28", "panel": "rgba(18,10,20,.94)", "sun": "#ffe3a0",
+  "planet": "#1d1226", "spark": "#ffe3a0", "can": "#ffcf5c",
+  "pirate": "#ff8d9c", "trader": "#c8e0a8", "missile": "#ffcf5c",
+  "galaxy": "#c8a8e0", "chartBg": "#0d060f",
+  "econColors": ["#a8d17b", "#c9a86a", "#f6ecdc", "#c8a8e0", "#ffcf5c"]
+ }
+}

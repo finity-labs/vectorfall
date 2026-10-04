@@ -1,0 +1,35 @@
+{
+ "format": "vectorfall-universe",
+ "version": 2,
+ "name": "Ember crucible",
+ "description": "Forge moons ring a dying red giant; everything smells of hot metal.",
+ "seed": 66101,
+ "goods": [
+  ["Ash grain", 9, -1],
+  ["Quench oil", 25, 0.1],
+  ["Furnace bricks", 20, 0.2],
+  ["Slag", 8, 0.3],
+  ["Obsidian glass", 30, -0.4],
+  ["Cinder spice", 65, -0.5],
+  ["Fire opals", 150, -0.7],
+  ["Heat shielding", 40, 0.5],
+  ["Bellows pumps", 45, 0.6],
+  ["Crucible steel", 55, 0.8],
+  ["Thermal cores", 120, 1.2],
+  ["Forge drones", 130, 1.3]
+ ],
+ "ships": {
+  "cinder": { "name": "Cinder", "cap": 14, "spd": 470, "turn": 1.25, "shield": 90, "price": 1500, "tech": 1, "desc": "Scorched scout; the paint never survives the first week." },
+  "crucible": { "name": "Crucible", "cap": 52, "spd": 260, "turn": 0.5, "shield": 175, "price": 5800, "tech": 5, "desc": "Armoured smelter barge that shrugs off stray slag and worse." },
+  "brand": { "name": "Brand", "cap": 18, "spd": 520, "turn": 1.3, "shield": 105, "price": 4600, "tech": 7, "desc": "Firebrand raider chassis, demilitarised in name only." }
+ },
+ "theme": {
+  "bg": "#120505", "fg": "#ffe9dc", "dim": "#a8766a", "wire": "#ffb199",
+  "hud": "#ff5a36", "ok": "#a8d17b", "bad": "#ff3860", "line": "#58201a",
+  "btn": "#2a0e0a", "panel": "rgba(18,5,5,.94)", "sun": "#ff6a3c",
+  "planet": "#260c08", "spark": "#ffb199", "can": "#ffd166",
+  "pirate": "#ff7a5c", "trader": "#e8c59a", "missile": "#ff5a36",
+  "galaxy": "#e07a5c", "chartBg": "#0d0303",
+  "econColors": ["#a8d17b", "#c9a86a", "#ffe9dc", "#ffb199", "#ff5a36"]
+ }
+}

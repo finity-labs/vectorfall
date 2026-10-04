@@ -1,0 +1,35 @@
+{
+ "format": "vectorfall-universe",
+ "version": 2,
+ "name": "Rust belt",
+ "description": "Scrap haulers and furnace towns along a dying industrial arm.",
+ "seed": 7741,
+ "goods": [
+  ["Rations", 10, -1],
+  ["Water ice", 6, -0.8],
+  ["Scrap alloys", 18, 0.4],
+  ["Coolant", 25, -0.3],
+  ["Welding gas", 22, 0.2],
+  ["Machine parts", 60, 1],
+  ["Servo motors", 85, 1.1],
+  ["Lubricants", 30, -0.2],
+  ["Filters", 40, 0.5],
+  ["Power cells", 95, 0.9],
+  ["Circuit boards", 120, 1.2],
+  ["Salvage drones", 160, 1.3]
+ ],
+ "ships": {
+  "skiff": { "name": "Skiff", "cap": 15, "spd": 460, "turn": 1.25, "shield": 80, "price": 1100, "tech": 1, "desc": "Stripped-down runabout: quick, cheap, and thin-skinned." },
+  "lugger": { "name": "Lugger", "cap": 55, "spd": 250, "turn": 0.5, "shield": 160, "price": 5200, "tech": 5, "desc": "Rust-streaked ore hauler with a cavernous hold." },
+  "gantry": { "name": "Gantry", "cap": 30, "spd": 340, "turn": 0.8, "shield": 200, "price": 7800, "tech": 8, "desc": "Heavy salvage rig: slow, but very hard to crack." }
+ },
+ "theme": {
+  "bg": "#0c0805", "fg": "#f0e6d8", "dim": "#9a8c7a", "wire": "#e8c59a",
+  "hud": "#ff9a3c", "ok": "#9ad17b", "bad": "#ff5147", "line": "#4a3826",
+  "btn": "#241a10", "panel": "rgba(12,8,5,.94)", "sun": "#ffc46b",
+  "planet": "#1d130a", "spark": "#ffb066", "can": "#ffd27a",
+  "pirate": "#ff8d66", "trader": "#c9e3a6", "missile": "#ff9a3c",
+  "galaxy": "#d9a05e", "chartBg": "#0a0604",
+  "econColors": ["#9ad17b", "#c9a86a", "#f0e6d8", "#ff9a3c", "#ff8d66"]
+ }
+}
